@@ -9,7 +9,7 @@ install:
 
 # Target to start litellm
 start:
-	litellm -c config.yml
+	litellm -c config.yaml
 
 test:
 	sh test.sh
