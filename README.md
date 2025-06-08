@@ -5,13 +5,14 @@ npm i -g @openai/codex
 ```
 
 ```sh
+mkdir -p ~/.codex
 echo '{
   "model": "mysuperstrongmodel",
   "provider": "litellm",
   "providers": {
     "litellm": {
       "name": "Litellm",
-      "baseURL": "http://localhost:4000",
+      "baseURL": "http://localhost:4926",
       "envKey": "OPENAI_API_KEY"
     }
   },

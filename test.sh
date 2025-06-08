@@ -1,4 +1,4 @@
-curl -X POST http://localhost:4000/v1/chat/completions \
+curl -X POST http://localhost:4926/v1/chat/completions \
     -H "Content-Type: application/json" \
     -d '{
     "messages": [

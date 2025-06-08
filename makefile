@@ -9,7 +9,7 @@ install:
 
 # Target to start litellm
 start:
-	litellm -c config.yaml
+	litellm -c config.yaml --port=4926
 
 test:
 	sh test.sh
